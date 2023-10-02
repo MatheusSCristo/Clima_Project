@@ -1,0 +1,14 @@
+body{
+    background-image: url(./imgs/bg.png);
+    background-size: cover;
+}
+
+.hot{
+    background-image: url(./imgs/bghot.png);
+    background-size: cover;
+}
+
+.cold{
+    background-image: url(./imgs/bgcold.svg);
+    background-size: cover;
+}

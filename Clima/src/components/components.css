@@ -1,0 +1,43 @@
+.search_box {
+    display: flex;
+    justify-content: center;
+    max-height: 10vh;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+}
+
+.search_box input {
+    margin-top: 5px;
+    width: 70%;
+    height: 5vh;
+    margin-left: 30px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.search_box input::placeholder {
+    font-size: 1rem;
+}
+
+.search_icon:hover {
+    cursor: pointer;
+    background-color: rgb(145, 145, 145);
+}
+
+.result_box {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+.dados_text h2 {
+    margin: 10px;
+    font-size: 1.5rem;
+
+}
+
+.temp {
+    display: flex;
+    align-items: center;
+}
